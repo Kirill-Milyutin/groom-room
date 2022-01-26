@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Grooming salon</title>
-  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link rel="stylesheet" type="text/css" href="public/css/style.css">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
 </head>
 <body>
@@ -16,8 +16,8 @@
         <div class="logo-text__second">Service for dogs and cats</div>
       </div>
       <nav class="nav">
-        <p><a class="nav-btn" href="index.html">Главная</a>
-        <a class="nav-btn" href="application.html">Вход</a></p>
+        <p><a class="nav-btn" href="/">Главная</a>
+        <a class="nav-btn" href="/applications">Вход</a></p>
       </nav>
     </header>
     <content class="content">
@@ -26,7 +26,7 @@
           <h2 class="app-left__title">Профессиональная укладка<br> для ваших домашних <br> питомцев</h2> 
         </div>
         <div class="app-right">
-          <img src="img/pet/pet.png" class="app-right-pets" alt="">
+          <img src="public/img/pet/pet.png" class="app-right-pets" alt="">
           <form action="" class="app-form">
             <p class="app-right__title">Создайте заявку</p>
             <input type="text" class="app-input" v-bind:value="valueInputName" v-on:input="inputName" v-on:keypress.enter="applicationForm" :placeholder="placeholderName">
@@ -60,9 +60,9 @@
 
   </div>
 
-  <script src="js/vue.min.js"></script>
+  <script src="public/js/vue.min.js"></script>
 
-  <script src="js/script.js"></script>
+  <script src="public/js/script.js"></script>
 
 </body>
 </html>

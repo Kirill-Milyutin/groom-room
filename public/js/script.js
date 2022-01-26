@@ -23,28 +23,28 @@ ready(function() {
         default: 'Запись завершена', 
         services: [{
 
-          url: 'img/pet/Cat.jpg',
+          url: 'public/img/pet/Cat.jpg',
           name: 'Cat1',
           condition: 'Запись выполнена',
           service: 'Процедуры'
         },
 
         { 
-          url: 'img/pet/Cat2.jpg',
+          url: 'public/img/pet/Cat.jpg',
           name: 'Cat2',
           condition: 'Запись выполнена',
           service: 'Груминг'
         },
 
         { 
-          url: 'img/pet/Cat.jpg',
+          url: 'public/img/pet/Cat.jpg',
           name: 'Cat3',
           condition: 'Запись выполнена',
           service: 'Обрезание',
         },
 
         {
-          url: 'img/pet/Cat2.jpg',
+          url: 'public/img/pet/Cat.jpg',
           name: 'Cat4',
           condition: 'Запись выполнена',
           service: 'Стрижка'

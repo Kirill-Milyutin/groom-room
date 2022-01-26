@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Grooming salon</title>
-  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link rel="stylesheet" type="text/css" href="public/css/style.css">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
 </head>
 <body>
@@ -61,9 +61,9 @@
 
   </div>
 
-  <script src="js/vue.min.js"></script>
+  <script src="public/js/vue.min.js"></script>
 
-  <script src="js/script.js"></script>
+  <script src="public/js/script.js"></script>
 
 </body>
 </html>

@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Grooming salon</title>
-  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link rel="stylesheet" type="text/css" href="public/css/style.css">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
 </head>
 <body>
@@ -19,8 +19,8 @@
       </div>
 
       <nav class="nav">
-        <p><a class="nav-btn" href="index.html">Главная</a>
-        <a class="nav-btn" href="application.html">Заявки</a>  <a class="nav-btn" href="autorisation.html">Кабинет</a></p>
+        <p><a class="nav-btn" href="/">Главная</a>
+        <a class="nav-btn" href="/applications">Заявки</a>  <a class="nav-btn" href="/autorisation">Кабинет</a></p>
       </nav>
 
     </header>
@@ -34,21 +34,21 @@
           <div class="app-left__app">
 
             <div class="app-windows">
-              <img src="img/pet/cat.jpg" class="app-window-img" alt="">
+              <img src="public/img/pet/cat.jpg" class="app-window-img" alt="">
               <div class="app-window-text__block">
                 <h3 class="app">Заявка №1</h3>
               </div>
             </div>
 
             <div class="app-windows">
-              <img src="img/pet/cat2.jpg" class="app-window-img" alt="">
+              <img src="public/img/pet/cat.jpg" class="app-window-img" alt="">
               <div class="app-window-text__block">
                 <h3 class="app">Заявка №1</h3>
               </div>
             </div>
 
             <div class="app-windows">
-              <img src="img/pet/cat.jpg" class="app-window-img" alt="">
+              <img src="public/img/pet/cat.jpg" class="app-window-img" alt="">
               <div class="app-window-text__block">
                 <h3 class="app">Заявка №1</h3>
               </div>
@@ -58,7 +58,7 @@
         </div>
 
         <div class="app-right">
-          <img src="img/pet/pet.png" class="app-right-pets" alt="">
+          <img src="public/img/pet/pet.png" class="app-right-pets" alt="">
           <form action="" class="app-form">
 
             <p class="app-title">Создайте заявку</p>
@@ -79,9 +79,9 @@
 
   </div>
 
-  <script src="js/vue.min.js"></script>
+  <script src="public/js/vue.min.js"></script>
 
-  <script src="js/script.js"></script>
+  <script src="public/js/script.js"></script>
 
 </body>
 </html>
